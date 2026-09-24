@@ -1,5 +1,5 @@
 {
-  "name": "git-context",
+  "name": "gitcontext",
   "version": "0.6.0",
   "description": "Know your Git state from inside Node.js.",
   "keywords": [
@@ -22,6 +22,7 @@
     }
   },
   "bin": {
+    "gitcontext": "./dist/cli.js",
     "git-context": "./dist/cli.js"
   },
   "files": [
